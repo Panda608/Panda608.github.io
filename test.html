@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <button id = "clickBtn">Click</button>
+     <h1  id = "title">Kavya Bhatt</h1>
+     <h3 id = "text"> This is a website about myself. I am interested in cars, racing and sports. I am also interested in global politics and current events</h3>
+     <img src= "WallP2.jpg" width ="50%" height="50%"">
+
+    <script>
+        
+        function changeText()
+        {
+            title.innerText = "Website About Myself"
+        }
+        let title = document.getElementById("title")
+        let button = document.getElementById("clickBtn")    
+        button.addEventListener("click", changeText);
+
+    </script>
+            <h1  id = "text"></h1>
+
+
+
+
+
+</body>
+</html>
